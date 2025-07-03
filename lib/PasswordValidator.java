@@ -3,10 +3,10 @@ package lib;
 public class PasswordValidator {
 
     /**
-     * คุณจะต้องเขียน Javadoc ที่สมบูรณ์ที่นี่ในอนาคต
-     * เพื่ออธิบายกฎการทำงานของเมธอด
+     * ตรวจสอบความยากง่ายของรหัสผ่านที่เป็น String
      * @param password string ที่ต้องการตวรจสอบ
-     * @return PasswordStrength INVAID อื่นๆ
+     * @return ส่งกลับความยากของรหัสหรือความภูกต้อง(Invaild)
+     * @throws IllegalArgumentException ถ้ารหัสผ่านมีค่า null หรือ empty
      */
    
     public static PasswordStrength validate(String password) { // Function Type ให้เป็น PasswordStrength 
